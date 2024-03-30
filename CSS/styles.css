@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+/* make header color different and font size */
+h1 {
+    font-size: 36px;
+    color: #C8102E;
+}
+
+main {
+    padding: 20px;
+}
+
+.bio-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headshot-container {
+    margin-right: 20px;
+}
+
+.headshot-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.bio-info {
+    max-width: 600px;
+}
+/* make footer same color as UH colors*/
+footer {
+    text-align: center;
+    background-color: #C8102E;
+    color: #fff;
+    padding: 10px 0;
+}
+/* customize nav button */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+/* make nav buttons easier to see by bolding and color change */
+nav ul li a {
+    text-decoration: none;
+    color: #2811f3;
+    padding: 10px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #C8102E;
+    border-radius: 5px;
+}
+
+.community-events-section {
+    margin-top: 40px;
+    position: relative; 
+}
+/* Placing chicken sandwich image */
+.chicken-sandwich {
+    width: 20%; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+/* Placing chess tourney image */
+.community-events-image {
+    width: 20%; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 250px; /* Adjust as needed */
+    z-index: 1;
+}
